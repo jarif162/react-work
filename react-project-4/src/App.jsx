@@ -37,6 +37,12 @@ function App() {
     }
   };
 
+  // const filteredStudents = students.filter(
+  //   (student) =>
+  //     (slectedg?.id === student.id ? student : s) &&
+  //     (selectedCourse ? student.course === selectedCourse : true)
+  // );
+
   const handleEditStudent = (student) => {
     setEditingStudent(student);
   };
